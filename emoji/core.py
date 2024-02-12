@@ -112,7 +112,7 @@ def emojize(
     :raises ValueError: if ``variant`` is neither None, 'text_type' or 'emoji_type'
 
     """
-
+    print("test")
     if language == 'alias':
         language_pack = unicode_codes.get_aliases_unicode_dict()
     else:
